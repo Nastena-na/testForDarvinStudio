@@ -1,0 +1,36 @@
+@import url(./__link/navigation__link.css);
+@import url(./_type/_catalog/navigation__item_type_catalog.css);
+
+.navigation__item {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.navigation__item:first-of-type {
+  margin-right: 20px;
+}
+
+.navigation__item:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 769px) {
+  .navigation__item {
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  .navigation__item:first-of-type {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 426px) {
+  .navigation__item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .navigation__item:first-of-type {
+    margin-right: 0;
+  }
+}

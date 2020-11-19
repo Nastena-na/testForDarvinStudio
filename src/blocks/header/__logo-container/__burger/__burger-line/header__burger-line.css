@@ -1,0 +1,26 @@
+@media (max-width: 426px) {
+  .header__burger-line {
+    position: relative;
+    width: 23px;
+    height: 4px;
+    background-color: #ffffff;
+  }
+
+  .header__burger-line::before {
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 4px;
+    background-color: #ffffff;
+    top: -10px;
+  }
+
+  .header__burger-line::after {
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 4px;
+    background-color: #ffffff;
+    top: 10px;
+  }
+}

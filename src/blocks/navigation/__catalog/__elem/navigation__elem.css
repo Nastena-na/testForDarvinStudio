@@ -1,0 +1,25 @@
+@import url(./__elem-link/navigation__elem-link.css);
+
+.navigation__elem {
+  list-style-type: none;
+  height: 25px;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.navigation__elem:last-of-type {
+  border-bottom: 0;
+}
+
+.navigation__elem:hover {
+  background-color: #5d8ea8;
+}
+
+@media (max-width: 426px) {
+  .navigation__elem {
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+  }
+}

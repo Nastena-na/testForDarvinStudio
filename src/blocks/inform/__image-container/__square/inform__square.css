@@ -1,0 +1,13 @@
+.inform__square {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 35px;
+  right: 85px;
+}
+
+@media (max-width: 1440px) {
+  .inform__square {
+    display: none;
+  }
+}

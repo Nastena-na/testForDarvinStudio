@@ -1,0 +1,18 @@
+@import url('./_two/inform__description_two.css');
+
+.inform__description {
+  color: #000;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 769px) {
+  .inform__description {
+    margin-bottom: 0;
+  }
+}

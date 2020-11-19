@@ -1,0 +1,15 @@
+@import url('./__title/swiper__title.css');
+@import url('./__description/swiper__description.css');
+@import url('./_one/swiper-slide_one.css');
+@import url('./_two/swiper-slide_two.css');
+@import url('./_three/swiper-slide_three.css');
+
+.swiper-slide {
+  width: 100% !important;
+  height: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  z-index: 17 !important;
+}

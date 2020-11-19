@@ -1,0 +1,41 @@
+.inform__buttom {
+  background: #f1ebd0;
+  height: 42px;
+  color: #5f5733;
+  text-align: center;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  order: 3;
+  box-sizing: border-box;
+  border: none;
+  display: none;
+}
+
+.inform__buttom:hover {
+  background: #e0d49d;
+}
+
+.inform__buttom:active {
+  background: #e5ca53;
+}
+
+@media (max-width: 769px) {
+  .inform__buttom {
+    width: 50%;
+    display: block;
+    margin-top: 30px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .inform__buttom {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,11 @@
+@import url('./__clothes-swiper/salesHits__clothes-swiper.css');
+
+.salesHits__wrapper-swiper {
+  height: 235px !important;
+  border-bottom: 2px solid #b8c3c9;
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}

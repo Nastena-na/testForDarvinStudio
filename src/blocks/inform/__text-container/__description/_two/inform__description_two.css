@@ -1,0 +1,10 @@
+.inform__description.inform__description_two {
+  margin-bottom: 0;
+  display: block;
+}
+
+@media (max-width: 769px) {
+  .inform__description.inform__description_two {
+    display: none;
+  }
+}

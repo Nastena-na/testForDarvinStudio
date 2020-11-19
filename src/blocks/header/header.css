@@ -1,0 +1,24 @@
+@import url(./__logo-container/header__logo-container.css);
+@import url(./__contacts/header__contacts.css);
+@import url(./__buttoms/header__buttoms.css);
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    flex-direction: column;
+    border-bottom: 2px solid #b8c3c9;
+    align-items: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    flex-direction: column;
+    border-bottom: 2px solid #b8c3c9;
+  }
+}

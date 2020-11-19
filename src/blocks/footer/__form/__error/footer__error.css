@@ -1,0 +1,5 @@
+@import url('./_active/footer__error_active.css');
+
+.footer__error {
+  display: none;
+}

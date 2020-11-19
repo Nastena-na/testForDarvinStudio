@@ -1,0 +1,21 @@
+@import url(./__phone/header__phone.css);
+@import url(./__line/header__line.css);
+@import url(./__container/header__container.css);
+
+.header__contacts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5%;
+}
+
+@media (max-width: 1440px) {
+  .header__contacts {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 426px) {
+  .header__contacts {
+    display: none;
+  }
+}

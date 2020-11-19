@@ -1,0 +1,21 @@
+.page__header {
+  padding: 1.1% 25%;
+}
+
+@media (max-width: 1919px) {
+  .page__header {
+    padding: 1.1% 16%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .page__header {
+    padding: 3% 6%;
+  }
+}
+
+@media (max-width: 426px) {
+  .page__header {
+    padding: 9% 6% 4.6%;
+  }
+}

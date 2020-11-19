@@ -1,0 +1,19 @@
+@import url(./__burger-line/header__burger-line.css);
+
+@media (max-width: 426px) {
+  .header__burger {
+    width: 45px;
+    height: 45px;
+    background-color: #3a4750;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+
+  .header__burger:focus {
+    background-color: #084f6f;
+  }
+}

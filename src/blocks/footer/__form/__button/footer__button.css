@@ -1,0 +1,22 @@
+.footer__button {
+  width: 130px;
+  height: 45px;
+  margin: 0;
+  align-self: center;
+  background-color: #5d8ea8;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (max-width: 426px) {
+  .footer__button {
+    width: 100%;
+  }
+}

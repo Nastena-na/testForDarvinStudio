@@ -1,0 +1,10 @@
+@import url('./__input/footer__input.css');
+
+.footer__input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.footer__input-container:last-of-type {
+  margin-bottom: 0;
+}

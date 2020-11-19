@@ -1,0 +1,7 @@
+@import url(./__time/header__time.css);
+@import url(./__number/header__number.css);
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+}

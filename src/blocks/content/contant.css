@@ -1,0 +1,7 @@
+@import url('./__inform/content__inform.css');
+@import url('./__salesHits/content__salesHits.css');
+
+.contant {
+  display: flex;
+  flex-direction: column;
+}

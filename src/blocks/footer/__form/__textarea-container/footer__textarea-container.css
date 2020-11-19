@@ -1,0 +1,7 @@
+@import url('./__textarea/footer__textarea.css');
+
+.footer__textarea-container {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
