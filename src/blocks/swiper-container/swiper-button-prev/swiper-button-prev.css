@@ -1,0 +1,32 @@
+.swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  outline: none !important;
+  background-color: #fff;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #5d8ea8 !important;
+  font-size: 25px;
+  border-radius: 100%;
+  border: none;
+  top: 85% !important;
+  left: 25% !important;
+  outline: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-prev:hover {
+  background-color: #5d8ea8;
+  color: #fff !important;
+}
+
+@media (max-width: 1919px) {
+  .swiper-button-prev {
+    top: 50% !important;
+    left: 2% !important;
+  }
+}

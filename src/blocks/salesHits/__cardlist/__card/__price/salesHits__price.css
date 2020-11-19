@@ -1,0 +1,10 @@
+.salesHits__price {
+  position: absolute;
+  color: #000;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  left: 20px;
+  bottom: 5px;
+}

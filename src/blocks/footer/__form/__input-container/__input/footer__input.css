@@ -1,0 +1,30 @@
+.footer__input {
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #949ca0;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.footer__input::placeholder {
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #3a4750;
+}
+
+.footer__input:hover {
+  border: 1px solid #1cb4e0;
+}
+
+.footer__input:focus {
+  border: 1px solid blue;
+}
+
+@media (max-width: 425px) {
+  .footer__input {
+    padding-left: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+.inform__cross {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+}
+
+@media (max-width: 1440px) {
+  .inform__cross {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.content__inform {
+  padding: 3.5% 0 4% 25%;
+}
+
+@media (max-width: 1440px) {
+  .content__inform {
+    padding: 0 6.25% 5%;
+  }
+}

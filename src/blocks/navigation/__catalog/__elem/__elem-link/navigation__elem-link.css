@@ -1,0 +1,12 @@
+.navigation__elem-link {
+  text-decoration: none;
+  color: #3a4750;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.navigation__elem-link:hover {
+  color: #ffffff;
+}

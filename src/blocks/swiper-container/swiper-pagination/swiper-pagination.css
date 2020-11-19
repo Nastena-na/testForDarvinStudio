@@ -1,0 +1,19 @@
+.swiper-pagination {
+  color: #ffffff;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+  bottom: 12% !important;
+  left: -17% !important;
+}
+
+.swiper-pagination-current {
+  font-weight: bold;
+  margin-right: 1px;
+}
+
+.swiper-pagination-total {
+  margin-left: 1px;
+}

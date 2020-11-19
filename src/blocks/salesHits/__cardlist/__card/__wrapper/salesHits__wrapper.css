@@ -1,0 +1,10 @@
+@import url('./__clothes/salesHits__clothes.css');
+
+.salesHits__wrapper {
+  border-bottom: 2px solid #b8c3c9;
+  width: 100%;
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
+}

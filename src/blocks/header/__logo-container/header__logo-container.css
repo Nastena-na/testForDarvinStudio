@@ -1,0 +1,15 @@
+@import url(./__logo/header__logo.css);
+@import url(./__burger/header__burger.css);
+
+.header__logo-container {
+  margin-right: 6%;
+}
+
+@media (max-width: 1440px) {
+  .header__logo-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}

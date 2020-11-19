@@ -1,0 +1,19 @@
+@import url('./swiper-slide/swiper-slide.css');
+@import url('./swiper-button-prev/swiper-button-prev.css');
+@import url('./swiper-button-next/swiper-button-next.css');
+@import url('./swiper-pagination/swiper-pagination.css');
+
+.swiper-container {
+  width: 100% !important;
+  display: flex;
+  position: relative;
+  height: 550px;
+  margin: 0;
+  z-index: 3;
+}
+
+@media (max-width: 426px) {
+  .swiper-container {
+    display: none;
+  }
+}

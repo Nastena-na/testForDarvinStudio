@@ -1,0 +1,12 @@
+.inform__image-320 {
+  height: 250px;
+  width: 280px;
+  border-radius: 10px;
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .inform__image-320 {
+    display: block;
+  }
+}

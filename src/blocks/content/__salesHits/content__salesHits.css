@@ -1,0 +1,21 @@
+.content__salesHits {
+  padding: 1.6% 25% 4%;
+}
+
+@media (max-width: 769px) {
+  .content__salesHits {
+    padding: 1% 5% 6%;
+  }
+}
+
+@media (max-width: 769px) {
+  .content__salesHits {
+    padding: 1% 0 6%;
+  }
+}
+
+@media (max-width: 426px) {
+  .content__salesHits {
+    padding: 1% 6.25% 6%;
+  }
+}

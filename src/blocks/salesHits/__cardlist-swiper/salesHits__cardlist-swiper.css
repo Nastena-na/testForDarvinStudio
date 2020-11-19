@@ -1,0 +1,17 @@
+@import url('./swiper-slide_salesHits/swiper-slide_salesHits.css');
+@import url('./swiper-pag/swiper-pag.css');
+
+.salesHits__cardlist-swiper {
+  width: 100% !important;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  display: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 426px) {
+  .salesHits__cardlist-swiper {
+    display: block;
+  }
+}

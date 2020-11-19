@@ -1,0 +1,16 @@
+@import url('./__text-container/inform__text-container.css');
+@import url('./__image-container/inform__image-container.css');
+@import url('./__buttom/inform__buttom.css');
+
+.inform {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .inform {
+    flex-direction: column;
+  }
+}

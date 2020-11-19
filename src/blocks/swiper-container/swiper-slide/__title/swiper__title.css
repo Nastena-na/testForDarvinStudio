@@ -1,0 +1,20 @@
+.swiper__title {
+  color: #ffffff;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  margin-top: 300px;
+  margin-bottom: 10px;
+  padding-left: 25%;
+}
+
+.swiper__title_three {
+  color: black;
+}
+
+@media (max-width: 769px) {
+  .swiper__title {
+    padding-left: 10%;
+  }
+}

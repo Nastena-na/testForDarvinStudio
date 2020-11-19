@@ -1,0 +1,36 @@
+@import url(./__nav/navigation__nav.css);
+@import url(./__catalog/navigation__catalog.css);
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background: #3a4750;
+  height: 60px;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .navigation {
+    height: 120px;
+  }
+}
+
+@media (max-width: 426px) {
+  .navigation {
+    position: absolute;
+    top: 73px;
+    right: 20px;
+    height: 245px;
+    width: 100px;
+    z-index: 10;
+    border-radius: 5px;
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .navigation {
+    top: 73px;
+    right: 20px;
+  }
+}

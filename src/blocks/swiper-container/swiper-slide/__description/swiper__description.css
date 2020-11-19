@@ -1,0 +1,19 @@
+.swiper__description {
+  color: #ffffff;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  margin: 0;
+  padding-left: 25%;
+}
+
+.swiper__description_three {
+  color: black;
+}
+
+@media (max-width: 769px) {
+  .swiper__description {
+    padding-left: 10%;
+  }
+}

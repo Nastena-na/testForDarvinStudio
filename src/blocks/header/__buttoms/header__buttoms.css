@@ -1,0 +1,12 @@
+@import url('./__buttom/header__buttom.css');
+
+.header__buttoms {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 426px) {
+  .header__buttoms {
+    flex-direction: column;
+  }
+}

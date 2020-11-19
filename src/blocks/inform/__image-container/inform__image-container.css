@@ -1,0 +1,28 @@
+@import url('./__image/inform__image.css');
+@import url('./__image-320/inform__image-320.css');
+@import url('./__ellipse-container/inform__ellipse-container.css');
+@import url('./__square/inform__square.css');
+@import url('./__cross/inform__cross.css');
+
+.inform__image-container {
+  align-self: flex-end;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .inform__image-container {
+    order: 1;
+    margin-top: 20px;
+    align-self: center;
+    margin-bottom: 42px;
+  }
+}
+
+@media (max-width: 426px) {
+  .inform__image-container {
+    order: 1;
+    margin-top: 100px;
+    margin-bottom: 42px;
+  }
+}

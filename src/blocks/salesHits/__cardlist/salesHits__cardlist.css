@@ -1,0 +1,19 @@
+@import url('./__card/salesHits__card.css');
+
+.salesHits__cardlist {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .salesHits__cardlist {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .salesHits__cardlist {
+    display: none;
+  }
+}

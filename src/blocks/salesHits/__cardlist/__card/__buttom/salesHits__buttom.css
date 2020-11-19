@@ -1,0 +1,16 @@
+@import url('./__basket/salesHits__basket.css');
+
+.salesHits__buttom {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1;
+  border-radius: 10px;
+  border: 2px solid #5d8ea8;
+  cursor: pointer;
+  outline: none;
+}
+
+.salesHits__buttom:hover {
+  border: 2px solid green;
+}

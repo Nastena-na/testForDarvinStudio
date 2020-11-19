@@ -1,0 +1,10 @@
+@import url('./__paragraph/footer__paragraph.css');
+@import url('./__checkbox/footer__checkbox.css');
+
+.footer__checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}

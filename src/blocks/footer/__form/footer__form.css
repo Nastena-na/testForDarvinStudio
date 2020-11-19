@@ -1,0 +1,36 @@
+@import url('./__title/footer__title.css');
+@import url('./__input-container/footer__input-container.css');
+@import url('./__textarea-container/footer__textarea-container.css');
+@import url('./__checkbox-container/footer__checkbox-container.css');
+@import url('./__button/footer__button.css');
+@import url('./__error/footer__error.css');
+
+.footer__form {
+  width: 375px;
+  height: 600px;
+  background-color: #e4e8eb;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 55%;
+  margin-top: 100px;
+  padding: 35px 20px 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+  .footer__form {
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 426px) {
+  .footer__form {
+    width: 100%;
+    margin: 0;
+    margin-top: -4px;
+    height: 635px;
+    border-radius: 0;
+  }
+}

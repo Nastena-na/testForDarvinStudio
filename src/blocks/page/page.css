@@ -1,0 +1,10 @@
+@import url(./__header/page__header.css);
+
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  background-color: #fff;
+}

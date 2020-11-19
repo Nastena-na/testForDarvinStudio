@@ -1,0 +1,38 @@
+@import url('./__wrapper/salesHits__wrapper.css');
+@import url('./__buttom/salesHits__buttom.css');
+@import url('./__tick/salesHits__tick.css');
+@import url('./__description/salesHits__description.css');
+@import url('./__price/salesHits__price.css');
+
+.salesHits__card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 310px;
+  height: 380px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.salesHits__card:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 769px) {
+  .salesHits__card {
+    margin-left: 20px;
+  }
+  .salesHits__card:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .salesHits__card {
+    margin-left: 0;
+    margin-right: 5px;
+    width: 200px;
+  }
+}

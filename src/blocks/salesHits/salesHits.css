@@ -1,0 +1,10 @@
+@import url(./__title/salesHits__title.css);
+@import url(./__cardlist/salesHits__cardlist.css);
+@import url(./__cardlist-swiper/salesHits__cardlist-swiper.css);
+
+.salesHits {
+  background: #e4e8eb;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

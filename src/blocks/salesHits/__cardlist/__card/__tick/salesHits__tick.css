@@ -1,0 +1,14 @@
+.salesHits__tick {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 10px;
+  border: 2px solid #b8c3c9;
+  cursor: pointer;
+  outline: none;
+  top: 10px;
+  right: 20px;
+  z-index: 0;
+  color: #b8c3c9;
+  background: #ffff;
+}

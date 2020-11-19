@@ -1,0 +1,16 @@
+@import url('./__ellipse/inform__ellipse.css');
+
+.inform__ellipse-container {
+  position: absolute;
+  width: 250px;
+  height: 105px;
+  overflow: hidden;
+  top: -7%;
+  left: 20%;
+}
+
+@media (max-width: 1440px) {
+  .inform__ellipse-container {
+    display: none;
+  }
+}
