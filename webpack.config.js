@@ -31,7 +31,7 @@ module.exports = {
             : {
                 loader: MiniCssExtractPlugin.loader, // если вы собираете в режиме dev, то плагин MiniCssExtractPlugin загружать не нужно.
                 options: {
-                  publicPath: '../',
+                  publicPath: './',
                 },
               },
           {
